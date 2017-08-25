@@ -22,12 +22,13 @@
             <version>${project.version}</version>
         </dependency>
 
-        <dependency>
-            <groupId>io.vertx</groupId>
-            <artifactId>examples-utils</artifactId>
-            <version>${project.version}</version>
-            <optional>true</optional>
-        </dependency>
+        <!--TODO: invalid dependency. Prevents from proper build with Maven.-->
+        <!--<dependency>-->
+            <!--<groupId>io.vertx</groupId>-->
+            <!--<artifactId>examples-utils</artifactId>-->
+            <!--<version>${project.version}</version>-->
+            <!--<optional>true</optional>-->
+        <!--</dependency>-->
 
         <dependency>
             <groupId>io.vertx</groupId>
