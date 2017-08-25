@@ -11,6 +11,7 @@ import utils.Runner;
 public class ReceiverForConsole extends AbstractVerticle {
   private static final String ADDRESS = AddressList.address.name();
 
+  //TODO: multiple "mains" prevent from properly running the jar. These should be 3 different modules.
   public static void main(String[] args) {
     Runner.runClusteredExample(ReceiverForConsole.class);
   }
